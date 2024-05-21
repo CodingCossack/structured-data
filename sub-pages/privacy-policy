@@ -1,0 +1,62 @@
+# ServingJobsNear.me/privacy-policy
+
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "AboutPage",
+      "url": "https://servingjobsnear.me/privacy-policy",
+      "name": "Privacy Policy | SERVING JOBS NEAR ME",
+      "description": "Serving Jobs near me privacy policy explains how we use, and protect your personal data. Read our transparent policy to understand your rights. We take your privacy seriously. Please review our boring document to understand how we handle your personal information.",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "SERVING JOBS NEAR ME",
+        "url": "https://servingjobsnear.me"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://servingjobsnear.me"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Privacy Policy",
+            "item": "https://servingjobsnear.me/privacy-policy"
+          }
+        ]
+      },
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": "https://servingjobsnear.me/privacy-policy"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "SERVING JOBS NEAR ME",
+        "logo": "https://ucarecdn.com/f9abc8af-115e-4c30-a20e-95dd8d73a60b/servingjobsnearmecompanylogo.png",
+        "url": "https://servingjobsnear.me",
+        "email": "hi@servingjobsnear.me",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "1908 Thomes Ave",
+          "addressLocality": "Cheyenne",
+          "addressRegion": "WY",
+          "postalCode": "82001",
+          "addressCountry": "US"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/company/serving-jobs-near-me",
+          "https://www.pinterest.com/servingjobsnearme",
+          "https://www.instagram.com/servingjobsnearme",
+          "https://twitter.com/ServingJobs",
+          "https://www.reddit.com/r/ServingJobsNearMe",
+          "https://www.facebook.com/servingjobsnearme"
+        ]
+      }
+    }
+  ]
+}
