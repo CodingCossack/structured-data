@@ -1,0 +1,71 @@
+# ServingJobsNear.me Homepage
+
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "name": "SERVING JOBS NEAR ME",
+      "url": "https://servingjobsnear.me",
+      "description": "Looking for serving jobs near you? ServingJobsNear.me is the #1 US Serving/Waiter/Waitress Job Board supporting 750,000+ Hospitality Businesses"
+    },
+    {
+      "@type": "WebPage",
+      "url": "https://servingjobsnear.me",
+      "name": "Flexible & Local Serving Jobs | SERVING JOBS NEAR ME",
+      "description": "Find Flexible Serving Jobs Near You - the #1 US Serving Job Board supporting over 750,000 hospitality businesses to help you find flexible serving jobs locally.",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "SERVING JOBS NEAR ME",
+        "url": "https://servingjobsnear.me"
+      },
+      "about": {
+        "@type": "Organization",
+        "name": "SERVING JOBS NEAR ME",
+        "logo": "https://ucarecdn.com/f9abc8af-115e-4c30-a20e-95dd8d73a60b/servingjobsnearmecompanylogo.png",
+        "url": "https://servingjobsnear.me",
+        "email": "hi@servingjobsnear.me",
+        "telephone": "+1 307 269 0900",
+        "sameAs": [
+          "https://www.linkedin.com/company/serving-jobs-near-me",
+          "https://www.pinterest.com/servingjobsnearme",
+          "https://www.instagram.com/servingjobsnearme",
+          "https://twitter.com/ServingJobs",
+          "https://www.reddit.com/r/ServingJobsNearMe/",
+          "https://www.facebook.com/servingjobsnearme/"
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "1908 Thomes Ave",
+          "addressLocality": "Cheyenne",
+          "addressRegion": "WY",
+          "postalCode": "82001",
+          "addressCountry": "US"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "Customer Support",
+          "email": "hi@servingjobsnear.me",
+          "telephone": "+1 307 269 0900"
+        }
+      },
+      "inLanguage": "en-US",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://servingjobsnear.me"
+          }
+        ]
+      },
+      "mainEntity": {
+        "@type": "CollectionPage",
+        "name": "Find Flexible Serving Jobs Near You",
+        "description": "Explore a wide range of flexible serving jobs across the United States. Find jobs by job title, state, city, wage or employment type with dynamic filters to refine your search."
+      }
+    }
+  ]
+}
