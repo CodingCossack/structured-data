@@ -1,0 +1,89 @@
+# ServingJobsNear.me/job/{{$pageUrl}}
+
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "url": "https://servingjobsnear.me/job/{{$pageUrl}}",
+      "name": "{{$title}}",
+      "description": "{{$employmentType}} {{$title}} job available at {{$hiringOrganization}} in {{$city}}, {{$state}} brought to you by SERVING JOBS NEAR ME.",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "SERVING JOBS NEAR ME",
+        "url": "https://servingjobsnear.me"
+      },
+      "datePublished": "{{$datePosted}}",
+      "inLanguage": "en-US",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://servingjobsnear.me"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "{{$title}}",
+            "item": "https://servingjobsnear.me/job/{{$pageUrl}}"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "JobPosting",
+      "title": "{{$title}}",
+      "description": "{{$description}}",
+      "responsibilities": "{{$responsibilities}}",
+      "skills": "{{$skills}}",
+      "jobBenefits": "{{$jobBenefits}}",
+      "hiringOrganization": {
+        "@type": "Organization",
+        "name": "{{$hiringOrganization}}",
+        "sameAs": "{{$url}}",
+        "logo": "{{$imgUrl}}"
+      },
+      "employmentType": "{{$employmentType}}",
+      "jobLocation": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "{{$streetAddress}}",
+          "addressLocality": "{{$city}}",
+          "addressRegion": "{{$state}}",
+          "postalCode": "{{$postalCode}}",
+          "addressCountry": "{{$addressCountry}}"
+        }
+      },
+      "baseSalary": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": {
+          "@type": "QuantitativeValue",
+          "value": "{{$baseSalary}}",
+          "unitText": "/hr"
+        }
+      },
+      "datePosted": "{{$datePosted}}",
+      "validThrough": "{{$validThroughDate}}",
+      "industry": "Hospitality",
+      "potentialAction": {
+        "@type": "ApplyAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "{{$directApply}}",
+          "inLanguage": "en-US",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/IOSPlatform",
+            "http://schema.org/AndroidPlatform"
+          ]
+        },
+        "actionStatus": "PotentialActionStatus"
+      }
+    }
+  ]
+}
