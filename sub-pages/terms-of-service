@@ -1,0 +1,62 @@
+# ServingJobsNear.me/terms-of-service
+
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "AboutPage",
+      "url": "https://servingjobsnear.me/terms-of-service",
+      "name": "Terms of Service | SERVING JOBS NEAR ME",
+      "description": "Review the Serving Jobs near me job platform's terms of service, outlining rules for responsible usage and our commitment to protecting users' rights. Terms of service is a boring document but we strongly recommend you to read it thoroughly and use our service responsibly. Thanks.",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "SERVING JOBS NEAR ME",
+        "url": "https://servingjobsnear.me"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://servingjobsnear.me"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Terms of Service",
+            "item": "https://servingjobsnear.me/terms-of-service"
+          }
+        ]
+      },
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": "https://servingjobsnear.me/terms-of-service"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "SERVING JOBS NEAR ME",
+        "logo": "https://ucarecdn.com/f9abc8af-115e-4c30-a20e-95dd8d73a60b/servingjobsnearmecompanylogo.png",
+        "url": "https://servingjobsnear.me",
+        "email": "hi@servingjobsnear.me",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "1908 Thomes Ave",
+          "addressLocality": "Cheyenne",
+          "addressRegion": "WY",
+          "postalCode": "82001",
+          "addressCountry": "US"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/company/serving-jobs-near-me",
+          "https://www.pinterest.com/servingjobsnearme",
+          "https://www.instagram.com/servingjobsnearme",
+          "https://twitter.com/ServingJobs",
+          "https://www.reddit.com/r/ServingJobsNearMe",
+          "https://www.facebook.com/servingjobsnearme"
+        ]
+      }
+    }
+  ]
+}
